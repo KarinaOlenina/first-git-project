@@ -1,0 +1,57 @@
+article h2, section {
+    color: #fff;
+    text-align: center;
+}
+
+article h2::before {
+    content: "";
+    border-bottom: 8px double #59affd;
+    width: 5%;
+    height: 13.2em;
+    position: absolute;
+    top: 0;
+    margin-left: calc(-5% - 10px);
+}
+
+article h2::after {
+    content: "";
+    border-bottom: 8px double #59affd;
+    width: 5%;
+    height: 13.2em;
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+
+}
+
+.rotation div {
+    margin: 15px;
+    padding: 0;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #59affd;
+    background-color: #ffc000;
+}
+
+.rotated {
+    transform: rotate(40deg);
+}
+
+.scaling div {
+    margin: 15px;
+    padding: 0;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #59affd;
+    background-color: #ffc000;
+}
+
+.big {
+transform: scale(1.5);
+}
+
+.small {
+    transform: scale(0.5);
+}
