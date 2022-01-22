@@ -1,3 +1,41 @@
 body {
     margin: 0;
+    background-color: #030f12;
+}
+
+.logo {
+    text-align: center;
+    color: #ffc000;
+}
+
+hr {
+    margin: 0;
+    padding: 5px;
+    border: none;
+    border-top: 1px solid #ffc000;
+    box-shadow: 0 10px 10px -10px #ffc000 inset;
+}
+
+nav {
+    text-align: right;
+}
+
+.menu {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu li {
+    margin: 5px;
+    padding: 3px;
+    display: inline;
+}
+
+.menu a {
+    color: #ffc000;
+    text-decoration: none;
+}
+
+main div {
+    color: #fff;
 }
