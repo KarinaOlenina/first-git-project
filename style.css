@@ -1,9 +1,23 @@
 body {
     margin: 0;
     background-color: #030f12;
+    font-family: 'Amatic SC', cursive;
 }
 
 .logo {
+    background-image: -webkit-linear-gradient(top, #ffc000, #030f12)
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo-text {
     text-align: center;
     color: #ffc000;
 }
@@ -12,8 +26,8 @@ hr {
     margin: 0;
     padding: 5px;
     border: none;
-    border-top: 1px solid #ffc000;
-    box-shadow: 0 10px 10px -10px #ffc000 inset;
+    border-top: 2px solid #59affd;
+    box-shadow: 0 10px 10px -10px #59affd inset;
 }
 
 nav {
@@ -36,6 +50,14 @@ nav {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    color: #59affd;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #59affd;
+}
+
 main div {
+    margin: 2%;
+    text-align: justify;
     color: #fff;
 }
