@@ -53,5 +53,14 @@ transform: scale(1.5);
 }
 
 .small {
-    transform: scale(0.5);
+    transform: scale(0.5, 0.8);
+}
+
+.movement {
+    transform: translate(10px, 15px);
+}
+
+.incline {
+    transform-origin: left top;
+    transform: skew(10deg, 10deg);
 }
