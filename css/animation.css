@@ -1,0 +1,134 @@
+
+.cat {
+    width: 65px;
+    height: 55px;
+    background-color: #ffc000;
+    border: 2px solid #e89900;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+    box-shadow: 0 10px 65px #59affd;
+}
+
+.ear {
+    width: 12px;
+    height: 15px;
+    background-color: #ffc000;
+    border-left: 2px solid #e89900;
+    border-bottom: 2px solid #e89900;
+    border-top: 2px solid #e89900;
+    position: absolute;
+    bottom: 43px;
+    left: 0;
+    transform: rotate(55deg);
+    border-radius: 200px 0 0 200px;
+}
+
+.ear2 {
+    width: 12px;
+    height: 15px;
+    background-color: #ffc000;
+    border-left: 2px solid #e89900;
+    border-bottom: 2px solid #e89900;
+    border-top: 2px solid #e89900;
+    position: absolute;
+    bottom: 44px;
+    left: 45px;
+    transform: rotate(120deg);
+    border-radius: 200px 0 0 200px;
+}
+
+.ear3 {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid #e89900;
+    position: absolute;
+    border-radius: 200px 0 0 200px;
+}
+
+.ear4 {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid #e89900;
+    position: absolute;
+    border-radius: 200px 0 0 200px;
+    top: 3px;
+}
+
+.eye, .eye:before {
+    width: 10px;
+    height: 5px;
+    border: 1px solid #030f12;
+    position: absolute;
+    border-radius: 0 0 15px 15px;
+    border-top: none;
+}
+.eye {
+    top: 23px;
+    left: 15px;
+}
+.eye:before {
+    content: "";
+    left: 20px;
+}
+
+.nose {
+    width: 20px;
+    height: 10px;
+    background-color: #8c4a05;
+    border: 1px solid #643d16;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+
+.mouth {
+    width: 40px;
+    height: 20px;
+    background-color: #fdd1a4;
+    border: 2px solid #e89900;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+.mouth2 {
+    width: 5px;
+    height: 6px;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 10px 10px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    left: 27px;
+    animation: mouth-move 2s infinite;
+    transform-origin: top;
+}
+@keyframes mouth-move {
+    50% {
+        transform: scaleY(0.5);
+    }
+}
+
+.bubble {
+    width: 15px;
+    height: 15px;
+    background-color: #7abffd;
+    opacity: 0.7;
+    border-radius: 10px 10px 10px 1px;
+    position: absolute;
+    bottom: 13px;
+    left: 48px;
+    animation: bubble-move 2s infinite;
+}
+
+@keyframes bubble-move {
+    50% {
+        transform: scale(1.5);
+    }
+}

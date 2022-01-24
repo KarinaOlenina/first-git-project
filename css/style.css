@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     background-color: #030f12;
     font-family: 'Amatic SC', cursive;
 }
@@ -15,7 +16,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .logo-text {
     text-align: center;
@@ -49,7 +49,6 @@ nav {
     color: #ffc000;
     text-decoration: none;
 }
-
 
 
 .nav-link:hover {
