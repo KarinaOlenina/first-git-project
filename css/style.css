@@ -35,6 +35,7 @@ nav {
 }
 
 nav ul > li {
+    padding: 5px;
     list-style: none;
     text-align: right;
 }
@@ -49,20 +50,21 @@ nav ul > li {
     height: 20px;
 }
 
-.dropdown li ul{
+.dropdown li ul {
     text-align: center;
     list-style: none;
     width: 90px;
     display: none;
     margin-left: auto;
 }
+
 .dropdown li > ul li a {
     text-decoration: none;
     color: #ffc000;
     padding: 10px;
 }
 
-.dropdown li:hover > ul{
+.dropdown li:hover > ul {
     display: block;
 }
 

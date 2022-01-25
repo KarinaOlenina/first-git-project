@@ -2,7 +2,8 @@ article h2, section {
     color: #fff;
     text-align: center;
     position: relative;
-    overflow: hidden;}
+    overflow: hidden;
+}
 
 article h2::before {
     content: "";
