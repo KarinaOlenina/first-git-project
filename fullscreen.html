@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Fullscreen</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fullscreen.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fullscreen.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lora:ital,wght@0,600;1,700&family=Open+Sans:wght@300;400&family=Roboto+Condensed&display=swap"
           rel="stylesheet">
 </head>
@@ -17,30 +17,31 @@
         <div class="full__body">
             <div class="menu__container">
                 <div class="full__menu">
-                <div class="first-menu">
-                    <ul class="menu">
-                        <li><a href="index.html" class="nav-link">HOME</a></li>
-                        <li><a href="transform.html" class="nav-link">Трансформации</a></li>
-                        <li><a href="transition.html" class="nav-link">Переходы</a></li>
-                        <li><a href="animation.html" class="nav-link">Анимации</a></li>
-                        <li><a href="Multimedia.html" class="nav-link">Мультимедиа</a></li>
-                        <li><a href="fullscreen.html" class="nav-link">Fullscreen</a></li>
-                    </ul>
+                    <div class="first-menu">
+                        <ul class="menu">
+                            <li><a class="nav-link" href="index.html">HOME</a></li>
+                            <li><a class="nav-link" href="transform.html">Трансформации</a></li>
+                            <li><a class="nav-link" href="transition.html">Переходы</a></li>
+                            <li><a class="nav-link" href="animation.html">Анимации</a></li>
+                            <li><a class="nav-link" href="multimedia.html">Мультимедиа</a></li>
+                            <li><a class="nav-link" href="fullscreen.html">Fullscreen</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <ul>
+                            <li><img alt="MENU" class="logo2" src="img/menu.png">
+                                <ul class="mobile_menu">
+                                    <li><a class="nav-link" href="index.html">HOME</a></li>
+                                    <li><a class="nav-link" href="transform.html">Трансформации</a></li>
+                                    <li><a class="nav-link" href="transition.html">Переходы</a></li>
+                                    <li><a class="nav-link" href="animation.html">Анимации</a></li>
+                                    <li><a class="nav-link" href="multimedia.html">Мультимедиа</a></li>
+                                    <li><a class="nav-link" href="fullscreen.html">Fullscreen</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="dropdown">
-                    <ul>
-                        <li><img class="logo2" src="img/menu.png" alt="MENU">
-                            <ul class="mobile_menu">
-                                <li><a href="index.html" class="nav-link">HOME</a></li>
-                                <li><a href="transform.html" class="nav-link">Трансформации</a></li>
-                                <li><a href="transition.html" class="nav-link">Переходы</a></li>
-                                <li><a href="animation.html" class="nav-link">Анимации</a></li>
-                                <li><a href="Multimedia.html" class="nav-link">Мультимедиа</a></li>
-                                <li><a href="fullscreen.html" class="nav-link">Fullscreen</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div></div>
             </div>
             <div class="fullscreen__title">FULLSCREEN</div>
             <div class="fullscreen__text">
@@ -48,7 +49,7 @@
                 </p>
             </div>
         </div>
-        <video autoplay muted loop preload="auto" class="fullscreen__video" src="img/Video1.mp4">
+        <video autoplay class="fullscreen__video" loop muted preload="auto" src="img/Video1.mp4">
             <source src="img/Video1.webm" type="Video1.webm">
             <source src="img/Video1.mp4" type="Video1.mp4">
         </video>
