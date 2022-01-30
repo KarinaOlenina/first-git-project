@@ -125,22 +125,25 @@ body {
     top: 0;
     transform: rotate(0);
 }
+
 #burger__button:checked ~ .burger__checkbox > span::after {
     top: 0;
     transform: rotate(90deg);
 }
+
 #burger__button:checked ~ .burger__list {
-visibility: visible;
+    visibility: visible;
 }
 
-#burger__button:not(:checked)~ .burger__list {
-display: none;
+#burger__button:not(:checked) ~ .burger__list {
+    display: none;
 }
 
 @media (max-width: 992px) {
     .header__list {
         display: none;
     }
+
     .sidebar__list li {
         display: inline-block;
         padding: 0 10px 0 10px;
@@ -180,6 +183,7 @@ display: none;
     .burger__checkbox {
         display: none;
     }
+
     .sidebar {
         padding: 30px 20px;
     }
